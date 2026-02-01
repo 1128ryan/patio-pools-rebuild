@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #09162a;
+  --navy-light: #1c3145;
+  --navy-mid: #344b64;
+  --blue: #2370dc;
+  --blue-light: #3083f6;
+  --blue-dark: #1a5bb8;
+  --yellow: #ffc300;
+  --yellow-dark: #e6b000;
+  --gray-light: #f4f8fa;
+  --gray: #ced3d3;
+  --white: #ffffff;
+  --text-primary: #09162a;
+  --text-secondary: #344b64;
+  --text-light: #6b7b8d;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
+  --color-navy-mid: var(--navy-mid);
+  --color-blue: var(--blue);
+  --color-blue-light: var(--blue-light);
+  --color-blue-dark: var(--blue-dark);
+  --color-yellow: var(--yellow);
+  --color-yellow-dark: var(--yellow-dark);
+  --color-gray-light: var(--gray-light);
+  --color-gray: var(--gray);
+  --color-white: var(--white);
+  --font-heading: var(--font-oswald);
+  --font-body: var(--font-archivo);
+}
+
+body {
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+  color: var(--text-primary);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Arial, Helvetica, sans-serif;
+}
