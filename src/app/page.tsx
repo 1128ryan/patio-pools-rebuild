@@ -35,9 +35,9 @@ export default function HomePage() {
       />
 
       <Hero
-        title="Dive Into Pure Bliss with"
-        highlight="Patio Pools & Spas"
-        subtitle="Southern Arizona's trusted pool builder and full-service pool company since 1969. Serving Tucson, Sierra Vista, and Oro Valley with 150+ design awards and 15,000+ pools built."
+        title="Southern Arizona's Most Awarded"
+        highlight="Pool Builder"
+        subtitle="New construction, renovation, cleaning, and repair — built by our own in-house crews since 1969. Serving Tucson, Oro Valley, and Sierra Vista. 150+ design awards. 15,000+ pools built."
         primaryCTA={{ label: "Get a Free Quote", href: "/contact" }}
         secondaryCTA={{ label: "Call (520) 886-1211", href: "tel:+15208861211" }}
       />

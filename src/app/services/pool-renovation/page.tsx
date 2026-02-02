@@ -9,6 +9,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { JsonLd, serviceSchema } from "@/components/seo/JsonLd";
 import { poolRenovationFAQs } from "@/data/faqs";
+import { RelatedServices } from "@/components/sections/RelatedServices";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Pool Renovation & Remodeling Tucson | Patio Pools & Spas",
@@ -146,6 +147,8 @@ export default function PoolRenovationPage() {
         subtitle="Common questions about pool remodeling in Tucson."
         faqs={poolRenovationFAQs}
       />
+
+      <RelatedServices currentServiceId="pool-renovation" />
 
       <CTABanner
         title="Transform Your Pool Today"

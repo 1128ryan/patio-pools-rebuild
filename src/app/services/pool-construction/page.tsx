@@ -10,6 +10,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { JsonLd, serviceSchema } from "@/components/seo/JsonLd";
 import { poolConstructionFAQs } from "@/data/faqs";
+import { RelatedServices } from "@/components/sections/RelatedServices";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Tucson Pool Builders | New Pool Construction | Patio Pools & Spas",
@@ -165,6 +166,8 @@ export default function PoolConstructionPage() {
       />
 
       <Testimonials />
+
+      <RelatedServices currentServiceId="pool-construction" />
 
       <CTABanner
         title="Build Your Dream Pool Today"

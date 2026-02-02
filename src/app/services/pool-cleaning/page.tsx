@@ -9,6 +9,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { JsonLd, serviceSchema } from "@/components/seo/JsonLd";
 import { poolCleaningFAQs } from "@/data/faqs";
+import { RelatedServices } from "@/components/sections/RelatedServices";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Pool Cleaning Service Tucson | $45/Week | Patio Pools & Spas",
@@ -146,6 +147,8 @@ export default function PoolCleaningPage() {
         title="Pool Cleaning FAQs"
         faqs={poolCleaningFAQs}
       />
+
+      <RelatedServices currentServiceId="pool-cleaning" />
 
       <CTABanner
         title="Let Us Handle Pool Maintenance"
